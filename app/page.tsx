@@ -1,4 +1,6 @@
 import ECommerce from "@/components/Dashboard/E-commerce";
+import HeroHome from "@/components/Home/HeroHome";
+import Navbar from "@/components/Layouts/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <ECommerce />
+      <HeroHome/>
     </>
   );
 }
